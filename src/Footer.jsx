@@ -30,7 +30,7 @@ function Footer() {
         </ul>
       </div>
       <div>
-        <img src="./src/assets/fake icon.png" alt="" />
+        <img src="./public/assets/fake icon.png" alt="" />
       </div>
     </div>
   );
