@@ -1,8 +1,6 @@
 import "./index.css";
 import { Link } from "react-router-dom";
 
-
-
 function Header() {
 
   return (
@@ -10,7 +8,7 @@ function Header() {
       <div class="flex justify-between items-center px-6 py-3">
         <div>
           <Link to="/">
-          <img src="./public/assets/logo.png" class="w-auto h-7.5" alt="" />
+          <img src="/assets/logo.png" class="w-auto h-7.5" alt="" />
           </Link>
         </div>
         <div>
