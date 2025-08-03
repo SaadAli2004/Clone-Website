@@ -3,10 +3,14 @@ import Header from "./Header.jsx";
 import Hero from "./Hero.jsx";
 import Sticky from "./Sticky.jsx";
 
+
+
+
 function App() {
   return (
+
     <>
-      <Header></Header>
+      <Header />
       <Sticky></Sticky>
       <Hero></Hero>
       <Footer></Footer>

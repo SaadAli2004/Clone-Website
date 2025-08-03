@@ -1,17 +1,23 @@
 import "./index.css";
+import { Link } from "react-router-dom";
+
+
 
 function Header() {
+
   return (
     <div class="bg-gray-100 text-gray-600 font-bold">
       <div class="flex justify-between items-center px-6 py-3">
         <div>
-        <img src="./public/assets/logo.png" class="w-auto h-7.5" alt="" />
+          <Link to="/">
+          <img src="./public/assets/logo.png" class="w-auto h-7.5" alt="" />
+          </Link>
         </div>
         <div>
           <ul class="flex gap-8">
-            <li>MENU</li>
-            <li>STORES</li>
-            <li>GET THE APP</li>
+            <Link to="/menu">
+              <li>MENU</li>
+            </Link>
           </ul>
         </div>
         <div class="flex items-center gap-3">
