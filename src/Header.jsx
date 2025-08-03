@@ -19,9 +19,9 @@ function Header() {
           </ul>
         </div>
         <div class="flex items-center gap-3">
-          <img src="./public/assets/cart.png" class="w-auto h-7.5"></img>
+          <img src="/assets/cart.png" class="w-auto h-7.5"></img>
           <div class="flex items-center gap-3">
-            <img src="./public/assets/user.webp" class="w-9.5"></img>
+            <img src="/assets/user.webp" class="w-9.5"></img>
             <h1>MY ACCOUNT</h1>
           </div>
         </div>
