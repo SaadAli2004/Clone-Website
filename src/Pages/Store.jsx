@@ -1,5 +1,5 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
+import Header from "../Component/Header.jsx";
+import Footer from "../Component/Footer.jsx";
 
 function Store(){
 

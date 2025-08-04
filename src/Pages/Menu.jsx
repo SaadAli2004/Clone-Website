@@ -1,7 +1,7 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Card from "./Card.jsx";
-import classicFlavours from "./object.js";
+import Header from "../Component/Header.jsx";
+import Footer from "../Component/Footer.jsx";
+import Card from "../Component/Card/Card.jsx";
+import classicFlavours from "../object.js";
 function Menu(){
 
 

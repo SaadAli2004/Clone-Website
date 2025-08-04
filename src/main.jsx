@@ -1,8 +1,10 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
+
 import App from "./App.jsx";
 import { StrictMode } from "react";
-import Menu from "./Menu.jsx";
+import Menu from "./Pages/Menu.jsx";
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
