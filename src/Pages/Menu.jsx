@@ -1,25 +1,18 @@
 import Header from "../Component/Header.jsx";
 import Footer from "../Component/Footer.jsx";
 import Card from "../Component/Card/Card.jsx";
+import Catagory from "../Component/Catagory.jsx";
 import classicFlavours from "../object.js";
-function Menu(){
+function Menu() {
+  return (
+    <>
+      <Header />
+      <Catagory />
 
-
-    return(
-
-         <>
-        
-        <Header/>
-
-       <div class="flex flex-wrap justify-center gap-10 p-10">
-        {classicFlavours.map((pizza, index) => (
-          <Card key={index} pizza={pizza} />
-        ))}
-      </div>
-        
-        <Footer/>
-        </> 
-    )
+{/* //Card used to be here */}
+      <Footer />
+    </>
+  );
 }
 
 export default Menu;
