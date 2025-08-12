@@ -19,7 +19,10 @@ function Header() {
           </ul>
         </div>
         <div className="flex items-center gap-3">
+          <Link to="/cart">
           <img src="/assets/cart.png" className="w-auto h-7.5"></img>
+          </Link>
+          
           <div className="flex items-center gap-3">
             <img src="/assets/user.webp" className="w-9.5"></img>
             <h1>MY ACCOUNT</h1>

@@ -2,7 +2,7 @@ import "@/index.css";
 
 function Footer() {
   return (
-    <div className="flex text-lg p-8 border justify-between ">
+    <div className="flex text-lg p-8 border-t border-gray-400 justify-between ">
       <div>
         <h1 className="font-bold">Dominoes Pizza</h1>
         <ul className="text-gray-600">

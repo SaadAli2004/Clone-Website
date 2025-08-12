@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { StrictMode } from "react";
 import Menu from "./Pages/Menu.jsx";
+import Store from "./Pages/Store.jsx";
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/menu",
     element: <Menu />,
+  },
+  {
+    path: "/cart",
+    element: <Store />,
   },
 ]);
 

@@ -10,7 +10,7 @@ function GetApp(){
         <Header/>
 
         <div>
-            <h1>App is here nigga</h1>
+            <h1>App is here</h1>
         </div>
         
         <Footer/>
