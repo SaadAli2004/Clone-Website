@@ -1,6 +1,6 @@
 import Header from "../Component/Header.jsx";
 import Footer from "../Component/Footer.jsx";
-import ToDoList from "../Component/ToDoList.jsx";
+import Cart from "../Component/Cart.jsx";
 
 function Store(){
 
@@ -12,7 +12,7 @@ function Store(){
         <Header/>
 
         <div className="flex m-20 justify-center">
-            <ToDoList/>
+           <Cart/>
         </div>
         
         <Footer/>
